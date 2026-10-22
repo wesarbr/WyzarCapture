@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.6.3 Beta — October 22, 2026
+
+Prepared correction: Windows media folders by type, removal of automatic AppData media fallback, drive-root selection into a product subfolder, and theme/menu hit-area and focus fixes. Includes disk reserves and basic UI Automation. All five languages updated. [Notes](docs/releases/0.6.3.md) · [tested scope](docs/BETA_STATUS.md). The existing 0.6.1 download predates the corrections.
+
+
+## 0.6.2 Beta — October 22, 2026
+
+Prepared update: recording/finalization disk reserve, audio/export space checks, basic Windows UI Automation and a bounded ten-minute capture gate. All new messages are embedded in five languages. See [0.6.2 notes](docs/releases/0.6.2.md) and [tested scope](docs/BETA_STATUS.md). The available download remains 0.6.1 until a new Release is attached.
+
+
 ## 0.6.1 Beta — October 22, 2026
 
 Configurable PrintScreen capture, key-based shortcut customization, quick access to every media destination, writable folder recovery, detected monitor preview and expanded camera viewing. Editor fixes preserve unsaved-change state after undo/redo and correct cumulative export timing across short cuts. New controls, Setup messages and help are included in all five languages.

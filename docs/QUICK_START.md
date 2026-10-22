@@ -31,7 +31,7 @@ Open **Screenshot** or press **PrintScreen**. Choose the recording source, a mon
 
 When a webcam is detected, open its expanded preview to check the complete image with its aspect ratio preserved. Previewing alone does not add the camera to a recording; enable camera recording explicitly. Camera controls are hidden when none is detected.
 
-Open **Your folders** to open or change a destination. Use the shared media root or writable local recovery choice if an automatic media location is unavailable. Previous files stay in their existing locations.
+Open **Your folders** to open or change a destination. Keep the Windows folders by file type, use Restore Windows folders, or explicitly choose custom writable destinations. There is no automatic AppData media fallback. Previous files stay in their existing locations.
 
 ### Personalize keys
 
@@ -46,6 +46,12 @@ Use the Library's search, tags and favorites to find a recording. Renaming or de
 Open the editor, trim or split clips and remove unwanted parts. Adjust speed, volume and basic effects, then inspect the preview. Associated/imported WAV tracks have separate mix controls for mute, solo, gain, offset, fades and cuts. Video cuts do not automatically realign those tracks. Webcam remains composited into the recorded image.
 
 Save a `.wyzproj` project to preserve editing decisions. It references original media rather than embedding every source. Move or delete those sources only if you are prepared to relink/rebuild the project.
+
+## Storage and accessibility in 0.6.3
+
+Keep room for the segment files and the assembled MP4. The app checks space before and during recording, audio capture and export. If space is insufficient or cannot be queried, review the message and choose another writable destination. Completed recovery segments are preserved if assembly cannot finish.
+
+Supported controls expose names, focus and Invoke/Value/Toggle/RangeValue actions to Windows UI Automation. This is basic interoperability, not complete screen-reader certification.
 
 ## Export
 

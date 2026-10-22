@@ -1,6 +1,6 @@
 # Privacy information
 
-This page describes WyzarCapture 0.6.1 Beta behavior.
+This page describes WyzarCapture 0.6.1 Beta and the prepared 0.6.3 Beta update.
 
 ## Processing on your computer
 
@@ -24,6 +24,8 @@ Normal installation stores preferences, index and logs in local Windows applicat
 Your selected screen/window/region, microphone, system sound and camera determine saved content. Obtain permission where needed. Basic blur does not automatically identify sensitive information. Review exports before sharing.
 
 Optional screenshot image-copy places the captured image on the Windows clipboard so you can paste it. Disable this option when you only want a file; other applications and Windows clipboard features can access clipboard content according to your system settings.
+
+In 0.6.3, Windows UI Automation exposes names, values, focus and actions for supported interface controls to local accessibility clients. This does not upload control content to a server.
 
 ## Retention and removal
 

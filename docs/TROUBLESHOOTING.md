@@ -1,10 +1,27 @@
 # Troubleshooting
 
+## Windows media folders or another drive are unavailable
+
+The 0.6.3 candidate corrects the automatic AppData media fallback reported in 0.6.1. It resolves Videos, Pictures, Music and Documents through Windows and keeps media separate from installation. In Setup, selecting a drive uses its WyzarCapture subfolder. In the application, use Your folders to inspect, open or change the destination, or Restore Windows folders.
+
+A disconnected drive, inaccessible redirected folder or Windows protection can still prevent writing. Keep protection enabled and choose an available writable destination. OS error 2 indicates a path/file was not found; it does not by itself prove that an access permission was denied. No software can promise access to every protected folder.
+
+The affected Windows 10 notebook still needs a real retest with the exact new installer. Existing media is preserved when destinations change. The old automatic fallback receives a preference backup before migration; other custom choices remain intact.
+
+## A theme or menu seems to need two clicks
+
+The corrected version clears previous focus on theme/category changes and rebuilds hit areas before the next input. Clicking outside an open selector also activates the visible control in that click. If a different control still fails, report the version, interface mode, theme, Windows scaling and exact steps without personal paths.
+
+
 ## Recording cannot create a destination
 
-Open **Your folders** or **Settings › Storage**, use the writable local recovery option or choose an available folder with the native picker, and retry a short recording. Windows account permissions and security protections remain in effect. Setup and first launch create the media directory tree and test writing. Redirected or disconnected folders, permission restrictions and stale paths copied from another computer can still need correction. Free disk space alone does not prove a destination is available.
+Open **Your folders** or **Settings › Storage**, use Restore Windows folders or choose an available folder with the native picker, and retry a short recording. Windows account permissions and security protections remain in effect. First launch prepares the Windows media destinations; Setup validates an explicitly selected custom media root. Redirected or disconnected folders, permission restrictions and stale paths copied from another computer can still need correction. Free disk space alone does not prove a destination is available.
 
 If it fails, use the operation's diagnostic copy action. Record the OS error number and which action failed. Remove personal paths before sharing screenshots or manually copied error text. A failed new folder request should not replace saved working preferences.
+
+## Not enough space to finalize a recording
+
+Version 0.6.3 keeps a safety reserve and, with recovery enabled, room for a second MP4 copy during assembly. Free space can therefore be required even when there is room for one more frame. Choose another destination or free space. Preserve the recovery segments if final assembly reports insufficient space; do not assume a partial export is complete.
 
 ## A monitor or audio device is missing
 

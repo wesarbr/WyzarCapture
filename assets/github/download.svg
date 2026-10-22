@@ -3,6 +3,6 @@
 <desc id="desc">Official Windows x64 beta installer channel</desc>
 <rect x="1" y="1" width="718" height="102" rx="20" fill="#FFD21A"/>
 <path d="M49 27v32m-12-12 12 12 12-12M32 70v8h34v-8" fill="none" stroke="#090C0F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="98" y="47" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#090C0F">Releases &amp; downloads</text>
-<text x="98" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#292A1A">0.6.1 Beta · Windows x64</text>
+<text x="98" y="47" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#090C0F">Release status &amp; updates</text>
+<text x="98" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#292A1A">0.6.3 Beta update · See release status</text>
 </svg>

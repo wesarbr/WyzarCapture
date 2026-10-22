@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/github/logo.png" width="390" alt="WyzarCapture"></p>
 <p align="center"><strong>Capture your screen. Find your recordings. Keep creating.</strong></p>
-<p align="center">Windows x64 · 0.6.1 Beta · Native desktop application · Free to use</p>
-<p align="center"><a href="https://github.com/wesarbr/WyzarCapture/releases"><img src="assets/github/download.svg" width="360" alt="WyzarCapture 0.6.1 Beta — Releases and downloads"></a></p>
+<p align="center">Windows x64 · 0.6.3 Beta update · Native desktop application · Free to use</p>
+<p align="center"><a href="docs/BETA_STATUS.md"><img src="assets/github/download.svg" width="360" alt="WyzarCapture 0.6.3 Beta update — availability and tested scope"></a></p>
 <p align="center"><a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/QUICK_START.md">Quick start</a> · <a href="docs/LANGUAGES.md">Languages</a> · <a href="docs/GALLERY.md">Gallery</a> · <a href="docs/FAQ.md">FAQ</a></p>
 
 ![WyzarCapture native screen recording, editing and compact controls](assets/github/hero.png)
@@ -29,12 +29,25 @@ The standard layout brings together preview, sources and devices. Focus, Compact
 
 ![Compact recording controls in the native application](assets/github/compact.png)
 
-### New in 0.6.1: capture your way
+**Availability:** the existing [0.6.1 Beta Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) has reported Windows folder issues. Use the corrected 0.6.3 candidate for retesting once its installer is attached. The **0.6.3 Beta update** described below has completed local validation and is prepared for testing; its installer has not yet been attached to a GitHub Release. See [tested scope](docs/BETA_STATUS.md) and [executable checksums](docs/CHECKSUMS.md).
+
+### Prepared in 0.6.3: Windows folders and smoother selection
+
+- **Files where you expect them:** videos and exports use Windows Videos, screenshots use Pictures, audio uses Music and projects use Documents. Redirected folders are respected; media is never automatically sent to AppData.
+- **Choose your drive:** select a writable application folder on another local drive. Selecting a drive root uses its WyzarCapture subfolder. A custom media root remains optional and separate.
+- **One-click navigation:** theme changes clear stale focus and refresh hit areas. Clicking another control outside an open selector closes the selector and activates that control in the same click.
+- **Space to finish:** recording reserves room for both the recovery segments and final MP4. Video, audio and export check available space periodically and stop or report a failure before continuing without a safety reserve.
+- **Accessible controls:** Windows UI Automation can discover controls, move focus, activate buttons, edit text, toggle options and adjust supported sliders. Stable control identities and property events support automation; full screen-reader certification remains pending.
+- **More practical validation:** a ten-minute capture is bounded by time, media budget and a disk-space reserve, then reopened and decoded before owned media is hashed and removed.
+- **Least privilege:** an elevated Setup does not automatically launch the recorder with its elevated token. Production installation remains for the current Windows user.
+
+New messages and control names are embedded in all five languages. [0.6.3 notes](docs/releases/0.6.3.md).
+### Included since 0.6.1: capture your way
 
 | Improvement | What changes for you |
 | --- | --- |
 | **PrintScreen** | Choose monitor, window, region or the recording source; add a 0, 3, 5 or 10 second delay; include the cursor and optionally copy the PNG image for pasting. Screenshots keep the source dimensions. |
-| **Your folders** | Open or change each destination from one panel, or prepare a shared media root. A writable local alternative helps recover unavailable automatic destinations. Existing media is not moved. |
+| **Your folders** | Open or change each destination from one panel, restore the Windows folders, or explicitly choose a shared media root. Existing media stays in its original folders. |
 | **Your shortcuts** | Click an action and press a key or Ctrl/Alt/Shift/Win combination. Duplicate assignments are rejected and system conflicts are reported. |
 | **Preview and editing** | See the detected monitor, enlarge an available camera preview, and use editor fixes for unsaved changes after undo/redo and timing across many short cuts. |
 
@@ -73,14 +86,14 @@ Effects have basic, limited parameters. Video cuts do not automatically realign 
 
 </details>
 
-The images show the application's native renderer with isolated demonstration data and synthetic color bars. They are product illustrations, not performance benchmarks or evidence of physical camera testing. [Gallery context](docs/GALLERY.md).
+Version-labeled images illustrate the prepared 0.6.3 update. The images show the application's native renderer with isolated demonstration data and synthetic color bars. They are product illustrations, not performance benchmarks or evidence of physical camera testing. [Gallery context](docs/GALLERY.md).
 
 ## Install and make your first recording
 
-Use the official [Releases page](https://github.com/wesarbr/WyzarCapture/releases) for installer downloads. The Windows x64 installer is **WyzarCaptureSetup.exe**; only this executable is needed. Read the [0.6.1 release notes](docs/releases/0.6.1.md) and [beta status](docs/BETA_STATUS.md) for the current distribution and tested scope.
+Use the official [Releases page](https://github.com/wesarbr/WyzarCapture/releases) for installer downloads. The Windows x64 installer is **WyzarCaptureSetup.exe**; only this executable is needed. The available download is 0.6.1 Beta. Read the [0.6.3 update notes](docs/releases/0.6.3.md) and [beta status](docs/BETA_STATUS.md) before choosing a version.
 
 1. Choose the official Setup for your version from Releases and select your language in its header.
-2. Choose the application folder, a writable media folder and your shortcuts. Installation is for the current Windows user.
+2. Choose the application folder and your shortcuts. Keep the Windows media folders or explicitly choose a custom media root. Installation is for the current Windows user.
 3. Open WyzarCapture, check the detected monitor and audio devices, and choose a source.
 4. Make a short test, stop, then reopen it from the Library to check picture and sound.
 

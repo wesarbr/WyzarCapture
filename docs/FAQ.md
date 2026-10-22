@@ -1,0 +1,43 @@
+# Frequently asked questions
+
+## Is WyzarCapture free?
+
+Yes. The own license permits personal, educational and professional use, including producing commercial content, without a license fee. It is proprietary freeware. Source modification, redistribution and reverse engineering are restricted subject to mandatory legal exceptions. Read the [license](../LICENSE.md).
+
+## Does it work outside Windows?
+
+This version is Windows x64 only. It uses native Windows capture, graphics, audio and media components. There is no macOS, Linux, browser or mobile build in this beta.
+
+## Which languages are included?
+
+Brazilian Portuguese, English, Spanish, Simplified Chinese and Japanese. Select a language in Setup or in Settings › General › Language. All translations are embedded. See [Languages](LANGUAGES.md).
+
+## Do I need an account or internet?
+
+No online account is required by the application. Downloading an official release uses internet. After download, Setup and the described recording/editing functions run locally using installed Windows components. This version implements no telemetry or automatic media upload.
+
+## Does automatic setup guarantee recording on my PC?
+
+No. Initial setup detects available hardware, proposes a profile and checks writable destinations. Permissions, drivers, codecs, disconnected destinations and device compatibility can still require changes. The reported Windows 10 notebook needs a new physical retest. Make a short test and inspect playback.
+
+## Can I record games or a webcam?
+
+Game mode uses a selected window through Windows Graphics Capture; exclusive hooks and universal anti-cheat/protected-content capture are not implemented. Webcam support has negotiation and buffer checks, but the affected physical notebook camera is not certified. Webcam video is composited into the recording.
+
+## Are audio tracks fully independent in the editor?
+
+Associated/imported WAV files have independent mix controls. Video cuts do not automatically realign those WAVs. Check offset, fades, preview and export manually. Independent camera video and full keyframe editing remain future work.
+
+## Will an update or uninstall delete recordings?
+
+The normal update/uninstall preserves personal media and projects. Optional preferences/cache/log cleanup is separate. Inspect all choices and retain backups. Changing a destination does not move existing files.
+
+## Can I recover everything after a crash?
+
+Recovery uses completed segments and checkpoints. The final open segment may be lost, and recovery after power loss or disk damage is not guaranteed.
+
+## Is the beta signed and publicly available?
+
+The candidate lacks a production Authenticode signature. This private preview has no published release/download. The owner decides when to change visibility after review. See [beta status](BETA_STATUS.md).
+
+[Back to project](../README.md)

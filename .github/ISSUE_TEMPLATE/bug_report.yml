@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem without private data.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For confidential security reports, follow SECURITY.md. Remove personal paths, names, credentials and private media."
+  - type: input
+    id: version
+    attributes:
+      label: WyzarCapture version
+      placeholder: "0.6.0 Beta"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows edition, version and build
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Application language
+      options:
+        - Brazilian Portuguese
+        - English
+        - Spanish
+        - Simplified Chinese
+        - Japanese
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result
+      description: Include selected capture/audio mode and whether a short test with a writable local media folder also fails.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Relevant hardware, error codes and safe evidence
+      description: Include GPU/camera model if relevant. Use synthetic content and remove private information.

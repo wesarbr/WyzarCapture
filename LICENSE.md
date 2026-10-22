@@ -1,6 +1,6 @@
 # WyzarCapture — Freeware License
 
-Terms 1.0 — October 22, 2026. Applies to the WyzarCapture 0.6.1, 0.6.2 and 0.6.3 Betas. Installing or using this version signifies acceptance of these terms, subject to rights that applicable law does not allow you to waive.
+Terms 1.0 — October 22, 2026. Applies to the WyzarCapture 0.6.1 through 0.7.0 Betas. Installing or using this version signifies acceptance of these terms, subject to rights that applicable law does not allow you to waive.
 
 1. Ownership. WyzarCapture is proprietary software. Its own code, executables and product identity remain the property of the rights holder responsible for the official wesarbr/WyzarCapture channel on GitHub. Third-party components retain their own owners and licenses. This license grants use of the application; it transfers no ownership or source-code rights.
 

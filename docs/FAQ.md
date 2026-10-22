@@ -40,7 +40,7 @@ Yes. Screenshot controls select the source, delay, cursor and optional image cop
 
 Camera controls appear when Windows enumerates a camera. When one is available, its expanded preview keeps the full image in proportion. Viewing it and including it in a recording are separate actions. Check Windows camera permissions if the expected device is missing.
 
-## Is 0.6.3 a fully certified stable release?
+## Is 0.7.0 a fully certified stable release?
 
 No. It completes bounded local checks, including a ten-minute capture, storage checks and basic UI Automation actions. Windows 10/11 stable builds, other hardware, physical cameras and complete screen-reader behavior still need their own tests. Current-user beta installation is the supported scope. See [beta status](BETA_STATUS.md).
 
@@ -50,6 +50,6 @@ Recovery uses completed segments and checkpoints. The final open segment may be 
 
 ## Where do I get this version, and is it signed?
 
-Use the project [Releases](https://github.com/wesarbr/WyzarCapture/releases) and select the official Windows x64 Setup. The available 0.6.1 Beta and prepared 0.6.3 Beta do not have production Authenticode signatures. Repository access follows the visibility settings chosen by the owner. See [beta status](BETA_STATUS.md) for availability and tested scope.
+The project [Releases](https://github.com/wesarbr/WyzarCapture/releases) currently has the official 0.6.3 Beta Windows x64 Setup. The locally validated 0.7.0 Beta installer is awaiting upload. These beta builds do not have production Authenticode signatures. Repository access follows the visibility settings chosen by the owner. See [beta status](BETA_STATUS.md) for availability and tested scope.
 
 [Back to project](../README.md)

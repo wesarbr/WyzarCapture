@@ -1,5 +1,9 @@
 # Release notes
 
+## 0.7.0 Beta — October 22, 2026
+
+Redesigned installer that detects an existing installation in another folder and offers to keep or move it, ignores stale entries and keeps messages clear of the options. Cleaner interface with Segoe UI Variable, short transitions and an animated effect for each theme. On-demand redraw and graphics-device recovery. Variable bitrate with 2-second keyframes, recommended bitrate, antialiased scaling, parallel webcam reading with shapes and mirror, Enhance voice and a compatible capture path. [Notes](docs/releases/0.7.0.md) · [tested scope](docs/BETA_STATUS.md).
+
 ## 0.6.3 Beta — October 22, 2026
 
 Prepared correction: Windows media folders by type, removal of automatic AppData media fallback, drive-root selection into a product subfolder, and theme/menu hit-area and focus fixes. Includes disk reserves and basic UI Automation. All five languages updated. [Notes](docs/releases/0.6.3.md) · [tested scope](docs/BETA_STATUS.md). The existing 0.6.1 download predates the corrections.

@@ -1,8 +1,8 @@
 # Installation and updates
 
-**Prepared update: 0.6.3 Beta for Windows x64.** Its application and Setup have completed local validation but the new installer is not yet attached to a GitHub Release. The existing [0.6.1 Beta Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) has reported Windows folder issues and does not include these corrections. See [beta status](BETA_STATUS.md) and [exact executable checksums](CHECKSUMS.md).
+**Prepared update: 0.7.0 Beta for Windows x64.** Its installer upload is pending. The [existing Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) currently contains **0.6.3 Beta**. Check [beta status](BETA_STATUS.md) and compare the downloaded version with the [checksums](CHECKSUMS.md). The instructions below describe 0.7.0; the new move/current-folder installation flow requires that update.
 
-## Install the corrected version
+## Install
 
 1. Use only the official **WyzarCaptureSetup.exe** for the intended version. This single executable contains the runtime; no separate payload, scripts or documents are needed.
 2. Choose a language and read the license. Application, Setup, help and new messages support Brazilian Portuguese, English, Spanish, Simplified Chinese and Japanese.
@@ -25,6 +25,8 @@ These use the actual Windows Known Folder locations, including folder redirectio
 **Your folders** provides open/change actions for every destination and **Restore Windows folders**. A custom shared root is also available. Only future files use a changed destination. Existing files stay in place.
 
 ## Update, repair and uninstall
+
+If WyzarCapture is already installed, Setup opens on that folder. Keep it to update or repair in place. If you choose another folder, Setup shows the current one and moves the program there; videos, projects and preferences stay where they are. Use **Use current folder** to go back. An entry left by a deleted folder no longer blocks a new installation.
 
 Updating the complete old automatic AppData/Media layout changes future destinations to the Windows media folders and saves a copy of the previous preferences. Existing videos, screenshots, audio and projects are preserved. Other custom choices are preserved.
 

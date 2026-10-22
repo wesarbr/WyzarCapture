@@ -1,6 +1,6 @@
 # Security policy
 
-Use only an official installer attached to the project GitHub Releases. The current prepared update is 0.6.3 Beta; 0.6.1 Beta is the available Release. See beta status for distribution availability. Older or withdrawn installers should not be redistributed. Internal validation records and proprietary sources are not part of this distribution portal.
+Use only an official installer attached to the project GitHub Releases. The current prepared update is 0.7.0 Beta; 0.6.1 Beta is the available Release. See beta status for distribution availability. Older or withdrawn installers should not be redistributed. Internal validation records and proprietary sources are not part of this distribution portal.
 
 ## Report a vulnerability privately
 

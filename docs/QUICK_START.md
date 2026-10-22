@@ -47,7 +47,7 @@ Open the editor, trim or split clips and remove unwanted parts. Adjust speed, vo
 
 Save a `.wyzproj` project to preserve editing decisions. It references original media rather than embedding every source. Move or delete those sources only if you are prepared to relink/rebuild the project.
 
-## Storage and accessibility in 0.6.3
+## Storage and accessibility since 0.6.3
 
 Keep room for the segment files and the assembled MP4. The app checks space before and during recording, audio capture and export. If space is insufficient or cannot be queried, review the message and choose another writable destination. Completed recovery segments are preserved if assembly cannot finish.
 

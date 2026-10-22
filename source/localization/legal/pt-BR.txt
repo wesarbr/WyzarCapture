@@ -1,0 +1,19 @@
+WyzarCapture — Licença de Uso Gratuito
+
+Termos 1.0 — 22 de outubro de 2026. Aplicáveis ao WyzarCapture 0.6.0 Beta. Instalar ou usar esta versão significa aceitar estes termos, preservados os direitos que a legislação aplicável não permite renunciar.
+
+1. Titularidade. WyzarCapture é software proprietário. Seu código próprio, executáveis e identidade permanecem com o titular responsável pelo canal oficial wesarbr/WyzarCapture no GitHub. Componentes de terceiros mantêm seus titulares e licenças. Esta licença concede uso do aplicativo; não transfere propriedade nem direitos sobre o código-fonte.
+
+2. Uso gratuito. Você pode baixar o instalador oficial e instalar e usar esta versão gratuitamente em computadores sob seu controle para fins pessoais, educacionais ou profissionais, inclusive para produzir conteúdo comercial. Não há cobrança de licença nem conta online obrigatória. Configuração, personalização, perfis, importação e exportação pela interface são permitidos. Suas gravações e projetos permanecem seus, respeitados os direitos de terceiros sobre o conteúdo.
+
+3. Integridade e distribuição. Compartilhe o link da release oficial. Redistribuir, revender, sublicenciar, reempacotar ou distribuir executáveis modificados exige autorização expressa do titular, salvo direito assegurado independentemente pela legislação aplicável. Não adulterar executáveis, remover avisos de titularidade ou licença, falsificar a origem ou distribuir alterações com a marca WyzarCapture sem autorização. Direitos legais de cópia de salvaguarda permanecem preservados.
+
+4. Engenharia reversa. Sem autorização expressa, não é permitido descompilar, desmontar, realizar engenharia reversa, tentar reconstruir o código-fonte ou criar versões derivadas dos executáveis, exceto quando e na medida em que a legislação aplicável permita independentemente desta restrição. A restrição é contratual; não afirma impossibilidade técnica de análise. Não elimina exceções legais nem concede direitos sobre ideias ou conhecimentos não protegidos.
+
+5. Componentes de terceiros. Avisos originais de terceiros estão incorporados aos executáveis. Estes termos não substituem essas licenças nem restringem os direitos que concedem. Restrições sobre o código próprio do WyzarCapture não se estendem a componentes cujas licenças concedam permissões diferentes.
+
+6. Beta e responsabilidade. Esta versão está em desenvolvimento. Não há promessa de compatibilidade com todo computador, funcionamento ininterrupto, desempenho sustentado ou recuperação integral das gravações. Mantenha backups e confira exportações antes de depender delas. Na medida permitida pela legislação aplicável, o software é fornecido no estado em que se encontra, sem garantias adicionais de adequação a uma finalidade específica. Garantias, responsabilidades e direitos obrigatórios permanecem preservados. Obtenha as permissões necessárias para gravar e compartilhar conteúdo de terceiros.
+
+7. Vigência e termos futuros. A permissão gratuita desta versão não tem data de expiração definida aqui. Novas versões podem apresentar explicitamente seus próprios termos, sem alterar retroativamente as permissões desta versão. O descumprimento pode encerrar a autorização de uso, nos limites da legislação aplicável. Você pode interromper o uso e desinstalar a qualquer momento; os direitos sobre seus arquivos permanecem seus.
+
+8. Direitos aplicáveis e contato. Interprete estes termos conforme a legislação aplicável, preservando direitos irrenunciáveis e exceções legais. A invalidade de uma disposição não invalida automaticamente as demais. Pedidos de autorização podem ser feitos nas Issues do repositório oficial, sem dados privados. Siga SECURITY.md para relatos de segurança; não divulgue vulnerabilidades ou material confidencial em Issues públicas.

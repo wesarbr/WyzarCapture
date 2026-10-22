@@ -2,7 +2,7 @@
 
 Update docs/CHECKSUMS.md for each exact tested application/Setup pair. Keep available downloads distinct from prepared updates. Historical checksums remain labeled by version; do not silently replace the bytes of an existing Release asset.
 
-This repository is the English distribution and documentation portal for WyzarCapture. Keep product documentation consistent with the installer actually attached to the official Release. Proprietary source code, development tools, private validation records, credentials and personal captures do not belong here.
+This repository is the English distribution and documentation portal for WyzarCapture. Keep product documentation consistent with the installer actually attached to the official Release. The `source` folder carries the application source code for reference under the Freeware License, at the owner's request. Development and release tooling, test harnesses and their records, third-party dependency sources, credentials, signing material and personal captures do not belong here. Check the source folder for credentials, personal paths and private data before every update.
 
 ## For each new version
 

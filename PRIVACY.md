@@ -1,6 +1,6 @@
 # Privacy information
 
-This page describes WyzarCapture 0.6.1 Beta and the prepared 0.6.3 Beta update.
+This page describes WyzarCapture 0.6.1 Beta through the prepared 0.7.0 Beta update.
 
 ## Processing on your computer
 
@@ -25,7 +25,7 @@ Your selected screen/window/region, microphone, system sound and camera determin
 
 Optional screenshot image-copy places the captured image on the Windows clipboard so you can paste it. Disable this option when you only want a file; other applications and Windows clipboard features can access clipboard content according to your system settings.
 
-In 0.6.3, Windows UI Automation exposes names, values, focus and actions for supported interface controls to local accessibility clients. This does not upload control content to a server.
+Since 0.6.3, Windows UI Automation exposes names, values, focus and actions for supported interface controls to local accessibility clients. This does not upload control content to a server.
 
 ## Retention and removal
 

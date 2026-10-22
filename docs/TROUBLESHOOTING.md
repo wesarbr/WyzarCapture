@@ -1,8 +1,14 @@
 # Troubleshooting
 
+## "An installation already exists at ..." in Setup
+
+Setup 0.6.3 and earlier refused a different destination while WyzarCapture was registered in another folder, for example `AppData\Local\Programs\WyzarCapture`, even when the page said "New installation". Setup 0.7.0 shows the current folder and version on the Destination page. Choose **Use current folder** to update in place, or keep the new folder and select **Install** to move the program. The new folder is installed and registered first; then only the old program files are removed. Videos, projects, preferences and files you added to the old folder stay where they are. If WyzarCapture is open from the old folder, Setup asks to close it cleanly first.
+
+If the previously registered folder was deleted, Setup 0.7.0 treats the entry as stale and installs normally. With an older Setup, install into the folder shown in the message or uninstall it from Windows Settings › Apps first.
+
 ## Windows media folders or another drive are unavailable
 
-The 0.6.3 candidate corrects the automatic AppData media fallback reported in 0.6.1. It resolves Videos, Pictures, Music and Documents through Windows and keeps media separate from installation. In Setup, selecting a drive uses its WyzarCapture subfolder. In the application, use Your folders to inspect, open or change the destination, or Restore Windows folders.
+Since 0.6.3, the automatic AppData media fallback reported in 0.6.1 is corrected. It resolves Videos, Pictures, Music and Documents through Windows and keeps media separate from installation. In Setup, selecting a drive uses its WyzarCapture subfolder. In the application, use Your folders to inspect, open or change the destination, or Restore Windows folders.
 
 A disconnected drive, inaccessible redirected folder or Windows protection can still prevent writing. Keep protection enabled and choose an available writable destination. OS error 2 indicates a path/file was not found; it does not by itself prove that an access permission was denied. No software can promise access to every protected folder.
 
@@ -21,7 +27,7 @@ If it fails, use the operation's diagnostic copy action. Record the OS error num
 
 ## Not enough space to finalize a recording
 
-Version 0.6.3 keeps a safety reserve and, with recovery enabled, room for a second MP4 copy during assembly. Free space can therefore be required even when there is room for one more frame. Choose another destination or free space. Preserve the recovery segments if final assembly reports insufficient space; do not assume a partial export is complete.
+Since 0.6.3, recording keeps a safety reserve and, with recovery enabled, room for a second MP4 copy during assembly. Free space can therefore be required even when there is room for one more frame. Choose another destination or free space. Preserve the recovery segments if final assembly reports insufficient space; do not assume a partial export is complete.
 
 ## A monitor or audio device is missing
 

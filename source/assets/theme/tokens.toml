@@ -1,0 +1,90 @@
+version = 2
+font = "Segoe UI"
+background = "#090C0F"
+sidebar = "#0B0E11"
+panel = "#101418"
+raised = "#161B20"
+hover = "#20262C"
+border = "#2A3036"
+text = "#F3F5F7"
+muted = "#9CA5AF"
+dim = "#626E79"
+gold = "#FFD21A"
+danger = "#FF3B49"
+success = "#21CF7A"
+timeline_system = "#398EF5"
+timeline_webcam = "#A66BF3"
+sidebar_width = 216
+header_height = 64
+status_height = 36
+panel_radius = 11
+button_radius = 8
+field_radius = 6
+control_font = 14
+compact_font = 12
+page_title_font = 32
+window_icon_size = 18
+tooltip_delay_ms = 700
+icon_viewbox = 24
+icon_weights = [1.35, 1.75, 2.15]
+custom_minimum_text_contrast = 4.5
+custom_minimum_accent_contrast = 3.0
+animation_default = false
+animation_pause_during_recording = true
+
+[[themes]]
+name = "Wyzar Gold"
+accent = "#FFD21A"
+background = "#090C0F"
+surface = "#101418"
+icon_style = "outline"
+
+[[themes]]
+name = "Safira"
+accent = "#75B8FF"
+background = "#090F1A"
+surface = "#111E30"
+icon_style = "outline"
+
+[[themes]]
+name = "Esmeralda"
+accent = "#5EDCB0"
+background = "#091411"
+surface = "#11241E"
+icon_style = "duo"
+
+[[themes]]
+name = "Ametista"
+accent = "#C7A0FF"
+background = "#110C1A"
+surface = "#20172E"
+icon_style = "duo"
+
+[[themes]]
+name = "Coral"
+accent = "#FFAC97"
+background = "#160E0E"
+surface = "#291B1B"
+icon_style = "outline"
+
+[[themes]]
+name = "Cobre"
+accent = "#EEB57C"
+background = "#15100C"
+surface = "#292018"
+icon_style = "technical"
+
+[[themes]]
+name = "Ártico"
+accent = "#C6D8E9"
+background = "#0D1218"
+surface = "#1B242E"
+icon_style = "technical"
+
+[[themes]]
+name = "Aurora"
+accent = "#6EE4E9"
+background = "#0A111A"
+surface = "#132432"
+icon_style = "duo"
+

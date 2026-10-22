@@ -1,8 +1,15 @@
 # Release notes
 
+## 0.6.1 Beta — October 22, 2026
+
+Configurable PrintScreen capture, key-based shortcut customization, quick access to every media destination, writable folder recovery, detected monitor preview and expanded camera viewing. Editor fixes preserve unsaved-change state after undo/redo and correct cumulative export timing across short cuts. New controls, Setup messages and help are included in all five languages.
+
+Read the [full 0.6.1 notes](docs/releases/0.6.1.md), [installation guide](docs/INSTALLATION.md) and [current beta status](docs/BETA_STATUS.md). Official installers belong to [Releases](https://github.com/wesarbr/WyzarCapture/releases).
+
+
 ## 0.6.0 Beta candidate — October 22, 2026
 
-Status: private beta preview; installer release and download pending.
+Historical documentation candidate; superseded by 0.6.1. This entry does not describe current download availability.
 
 ### Languages
 

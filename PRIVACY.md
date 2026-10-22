@@ -1,6 +1,6 @@
 # Privacy information
 
-This page describes WyzarCapture 0.6.0 Beta candidate behavior.
+This page describes WyzarCapture 0.6.1 Beta behavior.
 
 ## Processing on your computer
 
@@ -22,6 +22,8 @@ Normal installation stores preferences, index and logs in local Windows applicat
 ## What you choose to capture
 
 Your selected screen/window/region, microphone, system sound and camera determine saved content. Obtain permission where needed. Basic blur does not automatically identify sensitive information. Review exports before sharing.
+
+Optional screenshot image-copy places the captured image on the Windows clipboard so you can paste it. Disable this option when you only want a file; other applications and Windows clipboard features can access clipboard content according to your system settings.
 
 ## Retention and removal
 

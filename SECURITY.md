@@ -1,6 +1,6 @@
 # Security policy
 
-Only a candidate explicitly approved and released by the owner is a supported download. This private preview has no published release. Older or withdrawn installers should not be redistributed. Internal validation records and proprietary sources are not part of this distribution portal.
+Use only an official installer attached to the project GitHub Releases. The current documented version is 0.6.1 Beta; see beta status for distribution availability. Older or withdrawn installers should not be redistributed. Internal validation records and proprietary sources are not part of this distribution portal.
 
 ## Report a vulnerability privately
 

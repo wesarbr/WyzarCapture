@@ -2,7 +2,7 @@
 
 ## Recording cannot create a destination
 
-Open **Settings › Storage**, choose an available local writable folder using the native picker, and retry a short recording. Setup and first launch create the media directory tree and test writing. Redirected or disconnected folders, permission restrictions and stale paths copied from another computer can still need correction. Free disk space alone does not prove a destination is available.
+Open **Your folders** or **Settings › Storage**, use the writable local recovery option or choose an available folder with the native picker, and retry a short recording. Windows account permissions and security protections remain in effect. Setup and first launch create the media directory tree and test writing. Redirected or disconnected folders, permission restrictions and stale paths copied from another computer can still need correction. Free disk space alone does not prove a destination is available.
 
 If it fails, use the operation's diagnostic copy action. Record the OS error number and which action failed. Remove personal paths before sharing screenshots or manually copied error text. A failed new folder request should not replace saved working preferences.
 
@@ -17,6 +17,12 @@ Check microphone permissions and the selected input/output endpoints. System aud
 Confirm Windows camera access for desktop applications, check the driver and close other applications that may be holding the camera. Select the listed camera explicitly and retry while idle. The candidate tries bounded native formats and advanced/legacy processing paths, validates buffer dimensions/stride and preserves source ownership while retrying.
 
 If the error persists, disable the camera temporarily to test screen recording independently. Report the camera model, Windows build, selected mode, stage and numeric HRESULT. The Windows 10 notebook's physical camera remains a required retest; these changes are not a camera compatibility certification.
+
+## Screenshot or shortcut does not behave as expected
+
+Open Screenshot and confirm the selected source and target, delay, cursor and image-copy options. **Capture now** uses these settings and saves a PNG in the screenshot destination. Reopen the folder from the saved notice or Your folders. Screenshot dimensions follow the source, rather than the video quality preset.
+
+In Settings › Shortcuts, press the intended key combination and check for duplicate or system-conflict messages. Choose another combination if Windows or another application has reserved it. Restore defaults if needed. On systems where Windows handles PrintScreen itself, check the Windows screenshot-key setting or use a different WyzarCapture shortcut.
 
 ## Recording is slow or drops frames
 

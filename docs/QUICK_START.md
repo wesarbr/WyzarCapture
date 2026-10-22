@@ -11,7 +11,7 @@ Open **Settings › General › Language** to choose your interface language. Th
 - **Region:** drag an area in the native desktop selector and confirm it.
 - **Game:** select the game window. Windowed or borderless mode is recommended for this capture path; protected content and some games can prevent capture.
 
-Enable the live preview to check framing. Preview rendering preserves the source aspect ratio. Content excluded by Windows or protected by another application may not appear.
+The detected monitor preview starts automatically during normal launch. Use the preview control to check framing for the selected source. Preview rendering preserves the source aspect ratio. Content excluded by Windows or protected by another application may not appear.
 
 ## Set picture and sound
 
@@ -23,7 +23,21 @@ Enable microphone and system sound independently. Select real available endpoint
 
 Start with the record button or F8. The countdown appears on the capture monitor. F9 pauses/resumes; F10 stops. Wait for finalization and the saved notice before closing the application. These shortcuts are configurable. Stop a short test and reopen it in the Library to confirm picture, sound, framing and destination.
 
-Use Screenshot for a PNG. A captured window that closes can interrupt recording; check Recovery for completed segments, without assuming all content can be restored.
+### Take a screenshot
+
+Open **Screenshot** or press **PrintScreen**. Choose the recording source, a monitor, an open window or a region, then select the target. Choose a delay of 0, 3, 5 or 10 seconds, whether to include the cursor and whether to copy the image for pasting. Use **Capture now** to save a PNG at the source dimensions, independently of the recording resolution. The saved notice opens the screenshot folder. The same controls are available from compact layouts.
+
+### See your camera and reach your files
+
+When a webcam is detected, open its expanded preview to check the complete image with its aspect ratio preserved. Previewing alone does not add the camera to a recording; enable camera recording explicitly. Camera controls are hidden when none is detected.
+
+Open **Your folders** to open or change a destination. Use the shared media root or writable local recovery choice if an automatic media location is unavailable. Previous files stay in their existing locations.
+
+### Personalize keys
+
+In **Settings › Shortcuts**, click an action and press a key or a combination with Ctrl, Alt, Shift or Win. Confirm the assignment or restore F8/F9/F10/PrintScreen. Duplicates are rejected. Windows-reserved or already-used shortcuts may require another combination. The screenshot shortcut opens its current controls; **Capture now** applies the selected settings.
+
+A captured window that closes can interrupt recording; check Recovery for completed segments, without assuming all content can be restored.
 
 ## Organize and edit
 

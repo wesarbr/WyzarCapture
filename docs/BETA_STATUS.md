@@ -1,25 +1,29 @@
 # Beta status and tested scope
 
-**0.6.0 is a private candidate under owner review. No GitHub release or working installer download has been published from this preparation.** The repository must remain private until the owner changes its visibility.
+**Current application and documentation: 0.6.1 Beta, Windows x64.** The official distribution channel is [GitHub Releases](https://github.com/wesarbr/WyzarCapture/releases), with `WyzarCaptureSetup.exe` as the installer asset. The installer upload is not yet completed; documentation preparation does not establish download availability. This status will be updated only after the Release and its asset are verified.
 
-## What changed
+## What changed in 0.6.1
 
-- Five embedded interface languages, selectable in Setup and the application, with persistent preferences and complete own license texts.
-- Initial folder preparation using the Windows Videos location or an explicit writable choice, with a user-local fallback and write checks.
-- Separate application/media destination choices in Setup and a one-time handoff to the installed application.
-- Monitor/device inventory and selection reconciliation, provisional hardware-based defaults, and stronger camera negotiation and RGB32 stride validation.
-- Camera source ownership preserved while retrying Media Foundation reader configuration; errors identify the stage instead of silently discarding the cause.
-- Text-height measurement for translated help and update history.
+- Configurable screenshots: monitor, window, region or recording source, optional delay/cursor/image copy and original-dimension PNGs.
+- Key capture for customizable shortcuts, duplicate checks, conflict messages and default restoration.
+- Your folders panel, shared media-root preparation and explicit writable local recovery while preserving existing choices and media.
+- Detected monitor preview at normal startup and compact controls; expanded camera preview when a device is available.
+- Editor fixes for unsaved changes after undo/redo and cumulative timing across short cuts.
+- New controls, help and Setup messages in all five built-in languages.
+
+[Complete release notes](releases/0.6.1.md).
 
 ## Evidence and its boundaries
 
-Builds and unit tests use the pinned local Rust/vendor sources offline. The release process checks real installation, normal installed-application startup, preferences, short screen/audio recording, media reopening/decoding, export, recovery, native renders and normal local security scans. Language checks exercise native renderers and application actions in five languages. Internal records remain private and are not shipped here.
+The exact application and installer completed the local release pipeline on Windows 11 Pro Insider Preview. Checks included offline builds, unit tests, real current-user installation and normal startup, writable destinations, short screen/audio captures, decoding, editing/export, recovery, language persistence, native rendering and normal local security scans. Internal reports and artifact integrity records stay outside this documentation portal.
 
-These are bounded local checks on Windows 11 Pro Insider Preview. Renderer scale matrices are not physical DPI tests. Source-reader retry validation is not a physical camera test. Short recordings are not hours-long endurance certification. Successful scanning is an observation for the exact local artifact, not a universal security guarantee. Production Authenticode signing is absent.
+The editor checks exercised import, playback, seeking, splitting, trimming, removal, undo/redo, speed/volume, basic effects, saving/reopening, export progress and decoding. A real export of forty 50 ms cuts checked the timing regression. These checks establish their tested cases, not universal correctness for every media file or editing combination.
 
-## Required remote retest
+Renderer scale matrices are not physical DPI tests. Camera layouts used explicitly synthetic content; source-reader retries are not physical camera tests. Short recordings are not hours-long endurance certification. Physical key entry, folder-picker interaction and pasting an image into another application still need interactive retests. Production Authenticode signing is absent.
 
-A Windows 10 notebook previously failed when preparing a recording destination and enabling its camera. Folder and camera paths were corrected, but the affected hardware is not present in this validation environment. Retest installation, chosen folders, monitor detection, a short recording, playback, camera activation, restart and language persistence on that notebook before calling the report resolved.
+## Windows 10 notebook and camera retest
+
+A Windows 10 notebook previously failed when preparing a recording destination and enabling its camera. The affected hardware is not present in the local validation environment. Retest installation, chosen folders, monitor detection, a short recording, playback, camera activation, expanded preview, screenshots, custom keys, restart and language persistence on that notebook before calling the reported issue resolved.
 
 ## Known feature limits
 

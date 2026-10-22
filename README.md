@@ -1,16 +1,15 @@
 <p align="center"><img src="assets/github/logo.png" width="390" alt="WyzarCapture"></p>
 <p align="center"><strong>Capture your screen. Find your recordings. Keep creating.</strong></p>
-<p align="center">Windows x64 · 0.6.0 Beta candidate · Native desktop application · Free to use</p>
-<p align="center"><a href="docs/BETA_STATUS.md"><img src="assets/github/download.svg" width="360" alt="Beta status — installer release pending"></a></p>
+<p align="center">Windows x64 · 0.6.1 Beta · Native desktop application · Free to use</p>
+<p align="center"><a href="https://github.com/wesarbr/WyzarCapture/releases"><img src="assets/github/download.svg" width="360" alt="WyzarCapture 0.6.1 Beta — Releases and downloads"></a></p>
 <p align="center"><a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/QUICK_START.md">Quick start</a> · <a href="docs/LANGUAGES.md">Languages</a> · <a href="docs/GALLERY.md">Gallery</a> · <a href="docs/FAQ.md">FAQ</a></p>
 
 ![WyzarCapture native screen recording, editing and compact controls](assets/github/hero.png)
 
-> **Private beta preview — installer release pending.** This repository presents WyzarCapture and its documentation for the owner's review. A GitHub release and installer download are not available yet. The owner controls when this repository becomes public. This Windows-only beta candidate is unsigned and still requires a retest on the Windows 10 notebook that reported recording and camera errors. See [beta status](docs/BETA_STATUS.md).
 
 ## Your recording workflow, on your computer
 
-WyzarCapture is a native Windows application for screen and audio recording, a local media library, basic editing and MP4 export. Choose what to capture, record it, find the result and prepare a version to share in one application.
+WyzarCapture is a native Windows screen, audio and webcam recorder with customizable screenshots, a local media library, basic video editing and MP4 export. Choose what to capture, record it, find the result and prepare a version to share in one application.
 
 Your files stay in folders you choose. Recording, previews, editing and export run locally. No online account is required, and this version implements no telemetry or automatic media uploads. The self-contained installer uses the Windows media components already on your computer.
 
@@ -26,9 +25,20 @@ Your files stay in folders you choose. Recording, previews, editing and export r
 
 ### A window that fits the task
 
-The standard layout brings together preview, sources and devices. Focus, Compact and Compact focus layouts adapt the controls to your workspace. Compact mode provides start, pause and stop, recording choices, a destination control and an always-on-top option.
+The standard layout brings together preview, sources and devices. Focus, Compact and Compact focus layouts adapt the controls to your workspace. Compact mode provides start, pause and stop, a source preview, screenshot controls, quick access to your folders and an always-on-top option. Monitor choices come from the current computer. Camera controls appear when a camera is detected; the expanded preview preserves its aspect ratio.
 
 ![Compact recording controls in the native application](assets/github/compact.png)
+
+### New in 0.6.1: capture your way
+
+| Improvement | What changes for you |
+| --- | --- |
+| **PrintScreen** | Choose monitor, window, region or the recording source; add a 0, 3, 5 or 10 second delay; include the cursor and optionally copy the PNG image for pasting. Screenshots keep the source dimensions. |
+| **Your folders** | Open or change each destination from one panel, or prepare a shared media root. A writable local alternative helps recover unavailable automatic destinations. Existing media is not moved. |
+| **Your shortcuts** | Click an action and press a key or Ctrl/Alt/Shift/Win combination. Duplicate assignments are rejected and system conflicts are reported. |
+| **Preview and editing** | See the detected monitor, enlarge an available camera preview, and use editor fixes for unsaved changes after undo/redo and timing across many short cuts. |
+
+All new controls, help and Setup messages are included in the five built-in languages. [What changed](docs/releases/0.6.1.md).
 
 ### Five languages, built in
 
@@ -67,16 +77,16 @@ The images show the application's native renderer with isolated demonstration da
 
 ## Install and make your first recording
 
-Once the owner releases the reviewed candidate, the planned Windows asset is **WyzarCaptureSetup-0.6.0-Beta-Windows-x64.exe** in [GitHub Releases](https://github.com/wesarbr/WyzarCapture/releases). This is a planned asset name; no working download is claimed in this preview.
+Use the official [Releases page](https://github.com/wesarbr/WyzarCapture/releases) for installer downloads. The Windows x64 installer is **WyzarCaptureSetup.exe**; only this executable is needed. Read the [0.6.1 release notes](docs/releases/0.6.1.md) and [beta status](docs/BETA_STATUS.md) for the current distribution and tested scope.
 
-1. Download the official Setup when available and choose your language in its header.
+1. Choose the official Setup for your version from Releases and select your language in its header.
 2. Choose the application folder, a writable media folder and your shortcuts. Installation is for the current Windows user.
 3. Open WyzarCapture, check the detected monitor and audio devices, and choose a source.
 4. Make a short test, stop, then reopen it from the Library to check picture and sound.
 
 The first launch proposes a profile using detected hardware and prepares your chosen folders for recordings, audio, screenshots, exports and projects. You can change destinations and recording settings later. Existing preferences are preserved.
 
-Only the Setup executable is needed. You do not need Rust, developer tools or documentation files. After the initial download, installation and the described media functions use local resources. **Default shortcuts:** F8 starts, F9 pauses/resumes and F10 stops; change these in Settings › Shortcuts. F1 opens contextual help. [Full quick start](docs/QUICK_START.md).
+Only the Setup executable is needed. You do not need Rust, developer tools or documentation files. After the initial download, installation and the described media functions use local resources. **Default shortcuts:** F8 starts, F9 pauses/resumes, F10 stops and PrintScreen opens screenshot controls. In Settings › Shortcuts, press your preferred key or modifier combination; restore the defaults at any time. F1 opens contextual help. [Full quick start](docs/QUICK_START.md).
 
 ## Requirements and beta boundaries
 
@@ -99,6 +109,6 @@ Your media stays under your control. Read the [privacy information](PRIVACY.md) 
 
 WyzarCapture is **freeware with proprietary code**. Personal, educational and professional use, including creating commercial content, is permitted under the [Freeware License](LICENSE.md). Source modification, redistribution and reverse engineering are restricted subject to mandatory legal exceptions. The license does not claim technical prevention of reverse engineering and does not take ownership of your recordings.
 
-This repository is a distribution and documentation portal. It does not publish the proprietary source code, internal tests, audit records or signing material. [Change log](CHANGELOG.md) · [Security policy](SECURITY.md).
+This repository is a distribution and documentation portal. It does not publish the proprietary source code, internal tests, audit records or signing material. [Change log](CHANGELOG.md) · [Security policy](SECURITY.md) · [Page maintenance](docs/MAINTENANCE.md).
 
-When the repository is available to you, use its [Issues](https://github.com/wesarbr/WyzarCapture/issues) for reproducible bugs and suggestions. Include your Windows build, application version, selected language, steps and whether the problem persists with a writable local folder. Remove personal paths, names and private media. Follow the security policy for confidential reports.
+Use [Issues](https://github.com/wesarbr/WyzarCapture/issues) for reproducible bugs and suggestions. Include your Windows build, application version, selected language, steps and whether the problem persists with a writable local folder. Remove personal paths, names and private media. Follow the security policy for confidential reports.

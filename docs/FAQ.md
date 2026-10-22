@@ -32,12 +32,20 @@ Associated/imported WAV files have independent mix controls. Video cuts do not a
 
 The normal update/uninstall preserves personal media and projects. Optional preferences/cache/log cleanup is separate. Inspect all choices and retain backups. Changing a destination does not move existing files.
 
+## Can I customize PrintScreen and recording keys?
+
+Yes. Screenshot controls select the source, delay, cursor and optional image copy. In Settings › Shortcuts, click an action and press a key or modifier combination. Defaults can be restored. Windows reservations and conflicts still apply. See the [quick start](QUICK_START.md).
+
+## Why are there no camera controls on my computer?
+
+Camera controls appear when Windows enumerates a camera. When one is available, its expanded preview keeps the full image in proportion. Viewing it and including it in a recording are separate actions. Check Windows camera permissions if the expected device is missing.
+
 ## Can I recover everything after a crash?
 
 Recovery uses completed segments and checkpoints. The final open segment may be lost, and recovery after power loss or disk damage is not guaranteed.
 
-## Is the beta signed and publicly available?
+## Where do I get this version, and is it signed?
 
-The candidate lacks a production Authenticode signature. This private preview has no published release/download. The owner decides when to change visibility after review. See [beta status](BETA_STATUS.md).
+Use the project [Releases](https://github.com/wesarbr/WyzarCapture/releases) and select the official Windows x64 Setup. Version 0.6.1 Beta has no production Authenticode signature. Repository access follows the visibility settings chosen by the owner. See [beta status](BETA_STATUS.md) for availability and tested scope.
 
 [Back to project](../README.md)

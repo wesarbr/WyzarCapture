@@ -2,6 +2,18 @@ name: Feature request
 description: Suggest an improvement to the local recording workflow.
 title: "[Suggestion]: "
 body:
+  - type: markdown
+    attributes:
+      value: "Share a workflow example without personal files, credentials or external downloads. For vulnerabilities, follow SECURITY.md."
+  - type: checkboxes
+    id: safe_request
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing Issues and read SUPPORT.md.
+          required: true
+        - label: My suggestion contains no private data, credentials or confidential vulnerability details.
+          required: true
   - type: textarea
     id: need
     attributes:

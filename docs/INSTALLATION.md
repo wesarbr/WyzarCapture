@@ -1,6 +1,6 @@
 # Installation and updates
 
-**Prepared update: 0.7.0 Beta for Windows x64.** Its installer upload is pending. The [existing Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) currently contains **0.6.3 Beta**. Check [beta status](BETA_STATUS.md) and compare the downloaded version with the [checksums](CHECKSUMS.md). The instructions below describe 0.7.0; the new move/current-folder installation flow requires that update.
+**Current release: 0.7.0 Beta for Windows x64.** Open the [official Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture), expand **Assets** and download **WyzarCaptureSetup.exe**. Check [beta status](BETA_STATUS.md) and compare your download with the 0.7.0 [checksums](CHECKSUMS.md). These instructions describe the attached 0.7.0 installer.
 
 ## Install
 

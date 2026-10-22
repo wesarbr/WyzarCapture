@@ -1,10 +1,10 @@
 <p align="center"><img src="assets/github/logo.png" width="390" alt="WyzarCapture"></p>
 <p align="center"><strong>Record your screen, sound and camera. Keep your files on your computer.</strong></p>
 <p align="center">Windows 10/11 x64 · 0.7.0 Beta · Native desktop application · Free to use</p>
-<p align="center"><a href="docs/BETA_STATUS.md"><img src="assets/github/download.svg" width="360" alt="WyzarCapture 0.7.0 Beta — release status and updates"></a></p>
+<p align="center"><a href="https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture"><img src="assets/github/download.svg" width="360" alt="Get WyzarCapture 0.7.0 Beta for Windows x64"></a></p>
 <p align="center"><a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/QUICK_START.md">Quick start</a> · <a href="docs/LANGUAGES.md">Languages</a> · <a href="docs/GALLERY.md">Gallery</a> · <a href="docs/FAQ.md">FAQ</a></p>
 
-**Release status:** 0.7.0 Beta is prepared and locally validated; its installer has not been uploaded to GitHub. The currently attached installer is [0.6.3 Beta](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture). The screenshots and new features below describe 0.7.0. [Availability and tested scope](docs/BETA_STATUS.md).
+**Current release:** [0.7.0 Beta](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture), with **WyzarCaptureSetup.exe** attached. The screenshots and features below describe this version. Read the [tested scope and beta limits](docs/BETA_STATUS.md) before relying on it.
 
 ![WyzarCapture home screen](assets/github/hero.png)
 
@@ -36,7 +36,7 @@ Your files stay in folders you choose. Recording, previews, editing and export r
 
 [0.7.0 notes](docs/releases/0.7.0.md) · [Changelog](CHANGELOG.md)
 
-**Availability:** the [existing Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) contains the 0.6.3 Beta installer. The 0.7.0 installer and its installation-flow changes are awaiting upload. Match the version you download to its entry on the [checksum page](docs/CHECKSUMS.md).
+**Download:** open the [0.7.0 Beta Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture), expand **Assets** and choose **WyzarCaptureSetup.exe**. Match your file to the 0.7.0 entry on the [checksum page](docs/CHECKSUMS.md). GitHub's generated source archives are not installers.
 
 ### A window that fits the task
 
@@ -77,7 +77,7 @@ Images show the application's native renderer with isolated demonstration data a
 
 ## Install and make your first recording
 
-Use the official [Releases page](https://github.com/wesarbr/WyzarCapture/releases) for installer downloads. The attached version is currently 0.6.3 Beta; the steps below describe the prepared 0.7.0 update. The Windows x64 installer is **WyzarCaptureSetup.exe**; only this executable is needed.
+Use the official [Releases page](https://github.com/wesarbr/WyzarCapture/releases) for the **0.7.0 Beta** Windows x64 installer. Only **WyzarCaptureSetup.exe** is needed.
 
 1. Run the Setup and select your language in its header.
 2. Choose the application folder and your shortcuts. Keep the Windows media folders or choose a custom media folder. Installation is for the current Windows user, without administrator rights.
@@ -106,4 +106,4 @@ Your media stays under your control. Read the [privacy information](PRIVACY.md) 
 
 WyzarCapture is **freeware with proprietary code**. Personal, educational and professional use, including creating commercial content, is permitted under the [Freeware License](LICENSE.md). The [`source`](source/README.md) folder contains the application source code for reference under the same license; modification, redistribution and reverse engineering remain restricted subject to mandatory legal exceptions. Internal tests, release tooling, signing material and development notes are not published.
 
-Use [Issues](https://github.com/wesarbr/WyzarCapture/issues) for reproducible bugs and suggestions. Include your Windows build, application version, selected language, steps and whether the problem persists with a writable local folder. Remove personal paths, names and private media. Follow the [security policy](SECURITY.md) for confidential reports. [Page maintenance](docs/MAINTENANCE.md).
+Read [Support](SUPPORT.md), then choose a bug, help or suggestion form in [Issues](https://github.com/wesarbr/WyzarCapture/issues/new/choose). Use synthetic examples and remove private information. Never post vulnerability details in a public Issue; follow the [security policy](SECURITY.md) for a private channel. [Community rules](CODE_OF_CONDUCT.md) · [Page maintenance](docs/MAINTENANCE.md).

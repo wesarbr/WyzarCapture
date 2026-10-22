@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="104" viewBox="0 0 720 104" role="img" aria-labelledby="title desc">
-<title id="title">WyzarCapture 0.7.0 Beta — release status</title>
-<desc id="desc">Prepared update; check availability before downloading</desc>
+<title id="title">Get WyzarCapture 0.7.0 Beta</title>
+<desc id="desc">Open the official release and choose WyzarCaptureSetup.exe</desc>
 <rect x="1" y="1" width="718" height="102" rx="20" fill="#FFD21A"/>
 <path d="M49 27v32m-12-12 12 12 12-12M32 70v8h34v-8" fill="none" stroke="#090C0F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="98" y="47" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#090C0F">Release status and updates</text>
-<text x="98" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#292A1A">0.7.0 Beta · Windows x64 · Upload pending</text>
+<text x="98" y="47" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#090C0F">Get WyzarCapture 0.7.0 Beta</text>
+<text x="98" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#292A1A">Windows x64 · WyzarCaptureSetup.exe</text>
 </svg>

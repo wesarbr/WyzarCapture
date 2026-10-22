@@ -1,6 +1,6 @@
 # Privacy information
 
-This page describes WyzarCapture 0.6.1 Beta through the prepared 0.7.0 Beta update.
+This page describes WyzarCapture 0.7.0 Beta and the earlier 0.6.1–0.6.3 betas.
 
 ## Processing on your computer
 
@@ -33,6 +33,6 @@ Normal updating/uninstalling preserves personal media and projects. Optional rem
 
 ## Sharing diagnostics
 
-The application does not automatically send a report. Filing an Issue or sharing a screenshot/log is your action and follows GitHub visibility and terms. Copied diagnostics exclude private paths/free-form error text while retaining useful numeric codes; manually shared screenshots and files can still reveal information. Remove names, paths, credentials, conversations and third-party content. Prefer a small synthetic reproduction. Do not upload whole data folders or personal recordings.
+The application does not automatically send a report. Filing an Issue or sharing a screenshot/log is your action and follows GitHub visibility and terms. Issues become public when the repository is public; a required form or checkbox does not make them private. Copied diagnostics exclude private paths/free-form error text while retaining useful numeric codes; manually shared screenshots and files can still reveal information. Remove names, paths, credentials, conversations and third-party content. Prefer a small synthetic reproduction. Do not upload whole data folders or personal recordings. Follow [Support](SUPPORT.md) for routine help and [Security](SECURITY.md) for a private vulnerability channel.
 
 [Security reporting](SECURITY.md) · [Back to project](README.md)

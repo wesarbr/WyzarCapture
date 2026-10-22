@@ -1,0 +1,51 @@
+name: Help with WyzarCapture
+description: Ask about installation, recording, folders or editing without private data.
+title: "[Help]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Read SUPPORT.md and the troubleshooting guide first. This is public when the repository is public. Never share secrets or private recordings. For vulnerabilities, follow SECURITY.md."
+  - type: checkboxes
+    id: safe_question
+    attributes:
+      label: Before submitting
+      options:
+        - label: I read SUPPORT.md and searched the guides and existing Issues.
+          required: true
+        - label: My question contains no private data, credentials or confidential vulnerability details.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: WyzarCapture version
+      placeholder: "0.7.0 Beta"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows edition, version and build
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where do you need help?
+      options:
+        - Installation or update
+        - Recording or audio
+        - Camera
+        - Screenshots or shortcuts
+        - Folders or library
+        - Editing or export
+        - Language or appearance
+        - Other WyzarCapture question
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question and what you tried
+      description: Use concise text, synthetic examples and numeric error codes. Do not attach executables, scripts, archives, complete logs or private media.
+    validations:
+      required: true

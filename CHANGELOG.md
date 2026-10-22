@@ -6,12 +6,12 @@ Redesigned installer that detects an existing installation in another folder and
 
 ## 0.6.3 Beta — October 22, 2026
 
-Prepared correction: Windows media folders by type, removal of automatic AppData media fallback, drive-root selection into a product subfolder, and theme/menu hit-area and focus fixes. Includes disk reserves and basic UI Automation. All five languages updated. [Notes](docs/releases/0.6.3.md) · [tested scope](docs/BETA_STATUS.md). The existing 0.6.1 download predates the corrections.
+Historical release, superseded by 0.7.0: Windows media folders by type, removal of automatic AppData media fallback, drive-root selection into a product subfolder, and theme/menu hit-area and focus fixes. Includes disk reserves and basic UI Automation. All five languages updated. [Notes](docs/releases/0.6.3.md) · [current status](docs/BETA_STATUS.md).
 
 
 ## 0.6.2 Beta — October 22, 2026
 
-Prepared update: recording/finalization disk reserve, audio/export space checks, basic Windows UI Automation and a bounded ten-minute capture gate. All new messages are embedded in five languages. See [0.6.2 notes](docs/releases/0.6.2.md) and [tested scope](docs/BETA_STATUS.md). The available download remains 0.6.1 until a new Release is attached.
+Historical prepared candidate, superseded before distribution: recording/finalization disk reserve, audio/export space checks, basic Windows UI Automation and a bounded ten-minute capture gate. All new messages are embedded in five languages. See [0.6.2 notes](docs/releases/0.6.2.md) and [current status](docs/BETA_STATUS.md).
 
 
 ## 0.6.1 Beta — October 22, 2026

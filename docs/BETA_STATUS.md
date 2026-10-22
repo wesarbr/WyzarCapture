@@ -1,12 +1,12 @@
 # Beta status and release checklist
 
-**Prepared update: 0.7.0 Beta. Current download: [0.6.3 Beta](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture).** The 0.7.0 installer has completed local validation but is not attached to a GitHub Release yet. Its new installer behavior and the interface shown in this portal are therefore a preview of that update. Repository visibility remains controlled by the owner. Executable integrity values are in [Checksums](CHECKSUMS.md).
+**Current release: [0.7.0 Beta](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture).** The official **WyzarCaptureSetup.exe** is attached. Repository access follows its GitHub visibility settings. Executable integrity values are in [Checksums](CHECKSUMS.md); this remains beta software within the tested scope below.
 
 | Version | Distribution state |
 | --- | --- |
-| 0.7.0 Beta | Documentation, product images and reference source prepared; installer upload pending. |
-| 0.6.3 Beta | Setup is attached to the existing `WyzarCapture` Release. The service-reported asset size and digest match the local 0.6.3 Setup; this metadata check is not a fresh download comparison. |
-| 0.6.1 Beta | Historical version; the current asset on the existing Release is 0.6.3. |
+| 0.7.0 Beta | Setup attached to the existing `WyzarCapture` Release. GitHub reports the same size and SHA-256 as the locally validated 0.7.0 Setup; this metadata check is not an independent download comparison. Documentation, images and reference source describe 0.7.0. |
+| 0.6.3 Beta | Earlier release, superseded by 0.7.0. Its checksums remain labeled as historical. |
+| 0.6.1 Beta | Historical release, superseded. Use the current version for the subsequent folder and installer corrections. |
 
 The old 0.5.1 detection applies to that withdrawn artifact; it does not describe the current executable. Its root cause remains undetermined. The current installer uses a conventional RCDATA resource and no payload overlay.
 

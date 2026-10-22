@@ -4,7 +4,16 @@ title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: "For confidential security reports, follow SECURITY.md. Remove personal paths, names, credentials and private media."
+      value: "This is a public bug report when the repository is public. For vulnerabilities, read SECURITY.md instead. Use text and synthetic examples; do not upload executables, scripts, archives, full logs or private media."
+  - type: checkboxes
+    id: safe_report
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing Issues and read SUPPORT.md.
+          required: true
+        - label: This is not a confidential vulnerability report, and I removed private data and credentials.
+          required: true
   - type: input
     id: version
     attributes:
@@ -39,4 +48,4 @@ body:
     id: details
     attributes:
       label: Relevant hardware, error codes and safe evidence
-      description: Include GPU/camera model if relevant. Use synthetic content and remove private information.
+      description: Use text for GPU/camera model and numeric error codes. Use synthetic content and remove private information; do not attach executable files, scripts or archives.

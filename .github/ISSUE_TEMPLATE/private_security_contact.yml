@@ -1,0 +1,18 @@
+name: Request a private security contact
+description: Request a confidential channel only. Do not describe the vulnerability here.
+title: "[Security contact]: Request for a private reporting channel"
+body:
+  - type: markdown
+    attributes:
+      value: "STOP: this Issue is not a private report. First check Security > Advisories for Report a vulnerability. If that private form is unavailable, submit only the confirmations below and wait for the owner to provide a private channel. Do not add details, proof of concept, attachments, contact information or secrets to the title, body or comments."
+  - type: checkboxes
+    id: private_contact_only
+    attributes:
+      label: Request a private reporting channel
+      options:
+        - label: I read SECURITY.md and could not access a private vulnerability-report form.
+          required: true
+        - label: I am requesting a private channel without disclosing any vulnerability details, personal information or attachments here.
+          required: true
+        - label: I will wait for a private channel before sharing details, and will not post them in public comments.
+          required: true

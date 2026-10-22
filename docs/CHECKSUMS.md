@@ -4,7 +4,7 @@ These SHA-256 values identify the exact locally tested files. They do not provid
 
 ## 0.7.0 Beta
 
-Exact locally validated candidate; installer upload is pending. These values identify the prepared files and do not imply that 0.7.0 is downloadable. See [release status](BETA_STATUS.md).
+The official [0.7.0 Beta Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) has **WyzarCaptureSetup.exe** attached. GitHub reports the same installer size and SHA-256 as the locally validated file. This metadata comparison is not an independent download comparison: check the SHA-256 of your own download before running it. See [release status](BETA_STATUS.md).
 
 | Executable | SHA-256 |
 | --- | --- |
@@ -13,7 +13,7 @@ Exact locally validated candidate; installer upload is pending. These values ide
 
 ## Earlier versions
 
-The existing [Release](https://github.com/wesarbr/WyzarCapture/releases/tag/WyzarCapture) currently contains the 0.6.3 Beta Setup. Its service-reported digest and size match the local 0.6.3 installer. The 0.6.1 values are historical; choose the row matching your file's version.
+The values below are historical and do not describe the current Release asset, which is 0.7.0. Use the row matching your file's version. Do not use an older checksum to approve a new executable.
 
 | Version | Executable | SHA-256 |
 | --- | --- | --- |

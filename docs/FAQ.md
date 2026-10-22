@@ -50,6 +50,10 @@ Recovery uses completed segments and checkpoints. The final open segment may be 
 
 ## Where do I get this version, and is it signed?
 
-The project [Releases](https://github.com/wesarbr/WyzarCapture/releases) currently has the official 0.6.3 Beta Windows x64 Setup. The locally validated 0.7.0 Beta installer is awaiting upload. These beta builds do not have production Authenticode signatures. Repository access follows the visibility settings chosen by the owner. See [beta status](BETA_STATUS.md) for availability and tested scope.
+The project [Releases](https://github.com/wesarbr/WyzarCapture/releases) has the official **0.7.0 Beta** Windows x64 **WyzarCaptureSetup.exe** attached. This beta has no production Authenticode signature. Repository access follows the visibility settings chosen by the owner. See [beta status](BETA_STATUS.md) for availability and tested scope.
+
+## Where can I get help or report a problem?
+
+Read [Support](../SUPPORT.md), then choose the appropriate [Issue form](https://github.com/wesarbr/WyzarCapture/issues/new/choose). Use text and synthetic examples without personal files. Reports are public when the repository is public. Confidential vulnerabilities belong in the private process described in [Security](../SECURITY.md), never a public bug report.
 
 [Back to project](../README.md)
